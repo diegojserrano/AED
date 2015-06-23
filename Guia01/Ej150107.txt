@@ -1,0 +1,3 @@
+Desarrollar un programa que cargue por teclado una cadena de caracteres que se supone representa una cantidad
+de dinero precedida por el signo "$", y muestre un mensaje con esa cantidad pero precedida por la palabra
+"pesos" en lugar del signo "$". Ejemplo: si la cadena fuese: "$3420"  el mensaje debe ser:  "pesos 3420".
