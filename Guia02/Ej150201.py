@@ -1,3 +1,3 @@
 __author__ = 'fbett'
 
-print('Muerto')
+print('Muerto ')
