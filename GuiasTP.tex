@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{article} % Font size
+
+\usepackage[margin=0.8in]{geometry}
+\usepackage{charter} % Use the Charter font for the document text
+%\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{inconsolata}
+\usepackage{wasysym}
+
+
+\lstset{language=Python,tabsize=2,showstringspaces=false,basicstyle=\scriptsize\ttfamily,emph={label},inputencoding=utf8/latin1,breaklines=true,prebreak=\APLleftarrowbox,numbers=left,numberstyle=\tiny\ttfamily,aboveskip=1cm,belowskip=1cm}
+
+\newcommand{\ejercicio}[1]{
+	\item \input{Guia01/Ej1501#1.txt}
+	\lstinputlisting{Guia01/Ej01-#1.py}
+} 
+
+\begin{document}
+		
+\section*{Guia Número 1}
+	\begin{enumerate}
+
+	\item \input{Guia01/Ej01-01}
+	
+	%	\ejercicio{01}
+		\ejercicio{02}
+		\ejercicio{03}
+		\ejercicio{04}
+		\ejercicio{05}
+		\ejercicio{06}
+	%	\ejercicio{07}
+		\ejercicio{08}
+		\ejercicio{09}
+		\ejercicio{10}
+		\ejercicio{11}
+		\ejercicio{12}
+		\ejercicio{13}
+	%	\ejercicio{14}
+		
+	\end{enumerate}
+		
+\end{document}
