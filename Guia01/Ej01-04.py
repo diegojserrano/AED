@@ -1,14 +1,13 @@
-__author__ = 'Catedra Algoritmos y Estructuras de Datos'
-
-# Constantes
-C = 299792.458
+__author__ = 'Catedra de Algoritmos y Estructuras de Datos'
 
 # Titulo y carga de datos
-print('Ejercicio D - Calculo de la masa en energia de Eistein')
-masa = float(input('Ingrese la masa del objeto que desea calcular: '))
+print('Obtener los ultimos digitos de un numero')
+numero = int(input('Ingrese un numero: '))
 
 # Procesos
-e = masa * (C ** 2)
+unidad = numero % 10
+decenas = numero % 100
 
-# Visualización de resultados
-print('La energia de la masa ingresada es ', e)
+# Presentacion de resultados
+print('El ultimo digito del numero', numero, 'es', unidad)
+print('Los ultimos 2 digitos del numero', numero, 'son', decenas)

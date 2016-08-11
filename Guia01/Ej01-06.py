@@ -1,14 +1,14 @@
-__author__ = 'Catedra Algoritmos y Estructura de Datos'
+__author__ = 'Catedra de Algoritmos y Estructuras de Datos'
 
-# Titulo y carga de datos
-print('Ejercicio F - Ver Fecha en diferente formato')
-fecha = input('Ingrese la fecha que desea separar en formato dd/mm/yyyy: ')
+# Datos: una constante...
+VELOCIDAD_PROMEDIO = 122
+
+# Titulos
+print('Calculo de tiempo de llegada en un viaje')
 
 # Procesos
-dias = fecha[0:2]
-meses = fecha[3:5]
-anios = fecha[6:]
+# Regla de tres: si en promedio son 122 km en una hora, 400 km se recorren en...
+horas = 400 / VELOCIDAD_PROMEDIO
 
-# Presentacion de Resultados
-print('Dia: ', dias, ' - Mes: ', meses, ' - Año: ', anios)
-
+# Presentacion de resultados
+print('La cantidad de horas que tarda de Cordoba a Rosario es de', horas)

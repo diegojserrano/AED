@@ -1,0 +1,50 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/W32TeX) (rev 5238)  (format=lualatex 2016.2.26)  7 JUL 2016 00:57
+ restricted \write18 enabled.
+**Ej01-04.tex
+(./Ej01-04.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 L
+   a famosa ecuación de Einstein para conversión de una masa m en energía...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[][]La
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+
+Overfull \hbox (38.88536pt too wide) detected at line 2
+\OML/cmm/m/it/10 E \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 mc[]
+ []
+
+)
+! Emergency stop.
+<*> Ej01-04.tex
+            
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 20 strings out of 494693
+ 100000,89155 words of node,token memory allocated 2047 words of node memory still in use:
+   5 hlist, 65 glue, 1 kern, 4 penalty, 249 glyph, 38 glue_spec, 1 temp, 2 local
+_par, 1 dir nodes
+   avail lists: 1:1,2:11,3:3,7:18,10:16
+ 3864 multiletter control sequences out of 65536+600000
+ 25 fonts using 710607 bytes
+ 18i,0n,12p,115b,57s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!

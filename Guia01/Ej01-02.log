@@ -1,0 +1,36 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/W32TeX) (rev 5238)  (format=lualatex 2016.2.26)  7 JUL 2016 01:16
+ restricted \write18 enabled.
+**Ej01-02.tex
+(./Ej01-02.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \textquestiondown
+                    Cómo usaría el operador resto (\%\_) para obtener el v...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+! Emergency stop.
+<*> Ej01-02.tex
+            
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 11 strings out of 494693
+ 100000,89155 words of node,token memory allocated 2494 words of node memory still in use:
+   1 hlist, 1 vlist, 1 rule, 68 glue, 1 kern, 4 penalty, 328 glyph, 35 glue_spec
+, 1 temp, 1 local_par, 1 dir nodes
+   avail lists: 2:11
+ 3865 multiletter control sequences out of 65536+600000
+ 15 fonts using 431615 bytes
+ 14i,1n,13p,208b,46s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!

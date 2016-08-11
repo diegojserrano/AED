@@ -1,43 +1,101 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[11pt,a4paper]{article} % Font size
+\documentclass[14pt,a4paper]{extarticle} % Font size
 
 \usepackage[margin=0.8in]{geometry}
 \usepackage{charter} % Use the Charter font for the document text
 %\usepackage[utf8]{inputenc}
 \usepackage{listings}
 \usepackage{inconsolata}
+\usepackage[spanish]{babel}
+\usepackage{color}
+\usepackage[default]{cantarell} 
 \usepackage{wasysym}
+\usepackage[lf]{venturis} 
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{amssymb}
 
+\lstset{language=Python,tabsize=2,showstringspaces=false,basicstyle=\footnotesize\ttfamily,emph={label},inputencoding=utf8/latin1,,backgroundcolor=\color[gray]{0.95},aboveskip=2\bigskipamount,belowskip=2\bigskipamount,frame=single, framesep=8pt,breaklines=true,numbers=left,numberstyle=\footnotesize\ttfamily}
 
-\lstset{language=Python,tabsize=2,showstringspaces=false,basicstyle=\scriptsize\ttfamily,emph={label},inputencoding=utf8/latin1,breaklines=true,prebreak=\APLleftarrowbox,numbers=left,numberstyle=\tiny\ttfamily,aboveskip=1cm,belowskip=1cm}
-
-\newcommand{\ejercicio}[1]{
-	\item \input{Guia01/Ej1501#1.txt}
-	\lstinputlisting{Guia01/Ej01-#1.py}
+\newcommand{\ejercicio}[3]{
+	\subsection{\number #2\ - #3}
+	\input{Guia#1/Ej#1-#2.tex}
+	\lstinputlisting{Guia#1/Ej#1-#2.py}
+	\clearpage
 } 
 
-\begin{document}
-		
-\section*{Guia Número 1}
-	\begin{enumerate}
+\newcommand\sectionbreak{\clearpage}
 
-	\item \input{Guia01/Ej01-01}
+\begin{document}
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{6}
+\tableofcontents		
+
+\section{Ficha 1}
+	\ejercicio{01}{01}{División con resto}
+	\ejercicio{01}{02}{Cuadrado de un binomio}
+	\ejercicio{01}{03}{Área de un triángulo}
+	\ejercicio{01}{04}{Últimos dígitos}
+	\ejercicio{01}{05}{Conversión de medidas}
+	\ejercicio{01}{06}{Viaje Córdoba-Rosario}
+	\ejercicio{01}{07}{Precio del boleto}
+
+\section{Ficha 2}
+	\ejercicio{02}{01}{Cuadrados y cubos}
+	\ejercicio{02}{02}{Descuento en medicinas}
+	\ejercicio{02}{03}{Ecuación de Einstein}
+	\ejercicio{02}{04}{Polinomio de segundo grado}
+	\ejercicio{02}{05}{Cálculo de ángulos}
+	\ejercicio{02}{06}{Precio de venta}
+	\ejercicio{02}{07}{Votación en el Congreso}
+	\ejercicio{02}{08}{Rinde de un campo agricola}
+	\ejercicio{02}{09}{Datos de un rectángulo}
 	
-	%	\ejercicio{01}
-		\ejercicio{02}
-		\ejercicio{03}
-		\ejercicio{04}
-		\ejercicio{05}
-		\ejercicio{06}
-	%	\ejercicio{07}
-		\ejercicio{08}
-		\ejercicio{09}
-		\ejercicio{10}
-		\ejercicio{11}
-		\ejercicio{12}
-		\ejercicio{13}
-	%	\ejercicio{14}
-		
-	\end{enumerate}
-		
+\section{Ficha 3}
+	\ejercicio{03}{01}{Plazo fijo}
+	\ejercicio{03}{02}{Fecha como cadena}
+	\ejercicio{03}{03}{Importe como cadena}
+	\ejercicio{03}{04}{Duración de un vuelo}
+	\ejercicio{03}{05}{Control electoral}
+	\ejercicio{03}{06}{Cálculo de sueldo}
+	\ejercicio{03}{07}{Cálculo presupuestario}
+	\ejercicio{03}{08}{Cálculo distancia de viaje}
+	\ejercicio{03}{09}{Costos del proyecto}
+	\ejercicio{03}{10}{Tiempos de triatlón}
+	\ejercicio{03}{11}{Palabra enmascarada}
+	\ejercicio{03}{12}{Calculo de posta de natación}
+	
+\section{Ficha 4}
+	\ejercicio{04}{01}{Suma - División - Potencia}
+	\ejercicio{04}{02}{Impuesto Automotor}
+	\ejercicio{04}{03}{Calculo de Regularidad}
+	\ejercicio{04}{04}{Punto en el plano}
+	\ejercicio{04}{05}{Postulantes a un empleo}
+	\ejercicio{04}{06}{Jornal de un Operario}
+	\ejercicio{04}{07}{Comercio}
+	\ejercicio{04}{08}{Pago a un Proveedor}
+	\ejercicio{04}{09}{Galería de Arte}
+	\ejercicio{04}{10}{Temperatura diaria}
+	\ejercicio{04}{11}{Tarjeta de Bingo}
+	\ejercicio{04}{12}{Analisis de palabra}
+	\ejercicio{04}{13}{?`Piedra, Papel o Tijera?}
+	\ejercicio{04}{14}{Raíces de un polinomio de segundo grado}
+	\ejercicio{04}{15}{Índice de Masa Corporal}
+
+\section{Ficha 5}
+	\ejercicio{05}{01}{Elecciones presidenciales}
+	\ejercicio{05}{02}{Juego de cartas}
+	\ejercicio{05}{03}{Mantenimiento informático}
+	\ejercicio{05}{04}{Observatorio meteorológico}
+	\ejercicio{05}{05}{Menú de opciones básico}
+	\ejercicio{05}{06}{Institución educativa}
+	\ejercicio{05}{07}{Virus Pantevil}
+	\ejercicio{05}{08}{Tirada de moneda}
+	\ejercicio{05}{09}{Operaciones de orden con tres números}
+	\ejercicio{05}{10}{Pares e impares}
+	
+
+
+\section{Ficha 11}
+	\ejercicio{11}{01}{Vocales - SI - CC}
 \end{document}

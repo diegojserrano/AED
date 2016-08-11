@@ -1,13 +1,7 @@
-__author__ = 'Catedra Algoritmos y Estructuras de Datos'
-
-# Titulos y Lectura de datos
-print('Ejercicio A - Calculo del area de un triangulo')
-base = float(input('Ingrese la base del triangulo: '))
-
-# Procesos
-# Se obtiene la altura del triangulo
-h = base ** 2
-area = (base * h)/2
-
-# Presentacion de resultados
-print('El area de un triangulo es ', area)
+Abra el shell de Python, y simplemente transcriba una por una 
+las siguientes instrucciones (recuerde que el signo >>> es el 
+prompt o cursor del shell y no debe escribirlo):
+ 
+>>> a = 12
+>>> b = 3
+>>> print('a/b =', a/b, 'y el resto es:', a%b)
